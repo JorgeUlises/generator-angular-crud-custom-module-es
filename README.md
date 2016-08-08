@@ -1,23 +1,24 @@
-# generator-angular-crud-custom-module
+# generator-angular-crud-custom-module-es
 
-> generator-angular-crud-custom-module is basically [Yeoman](http://yeoman.io) generator,which generate controller,services and view files of given module. To generate dynamic form from given fields of module, we used [angular formly](http://docs.angular-formly.com/).
+> generator-angular-crud-custom-module-es es basicamente un generador [Yeoman](http://yeoman.io), que genera los archivos de controladores, servicios y vistas de un módulo. Para general formularios dinámicos desde los campos obtenidos por el módulo, se usa [angular formly](http://docs.angular-formly.com/).
 
-## Getting Started
+## Empezando
 
-To use generator-angular-curd-custom-module generator, please go through below steps.
+Para el generador generator-angular-curd-custom-module-es, por favor has los siguientes pasos.
 <ol>
-    <li> Install `yo`.
+    <li> Instalar `yo`.
         <br><br>
         <pre>npm install -g yo</pre>
         </li>
-    <li> Install `generator-angular-crud-custom-module` from npm.
+    <li> Instalar `generator-angular-crud-custom-module-es` desde npm.
         <br><br>
-        <pre>npm install -g generator-angular-crud-custom-module</pre>
+        <pre>npm install -g generator-angular-crud-custom-module-es</pre>
         </li>
-    <li> To initiate the generator, create a new folder and change terminal directory to the folder, Run:
+    <li> Para iniciar el generador, crear un nuevo directorio y cambiar la ubicación de la terminal al nuevo directorio, ejecuta:
         <br><br>
-        <pre>yo angular-crud-custom-module</pre>
-        This command will generate following items:
+        <pre>mkdir mi_proyecto; cd $_</pre>
+        <pre>yo angular-crud-custom-module-es</pre>
+        Este comando genera el siguiente árbol de directorios y archivos:
         <ul>
             <li>app
                 <ul>
@@ -41,11 +42,11 @@ To use generator-angular-curd-custom-module generator, please go through below s
             <li>bower.json</li>
         </ul>
         </li>
-    <li> To create dynamic module, run:
+    <li> Para crear dinámicamente un módulo, ejecuta:
         <br><br>
-        <pre>yo angular-crud-custom-module:module</pre>
-        This will asked you couple of questions.Like module name,path to generate it and fields of the module. After applying this command, controllers,services and view files of this module will be generated and generated items:
-        <br>Lets take `customer` as module
+        <pre>yo angular-crud-custom-module-es:module</pre>
+        Este comando hará algunas preguntas como el nombre del módulo, directorios a generar, campos del módulo y otros relacionados. Después de aplicar este comando, los archivos de controladores, servicios y vistas del módulo son generados con la siguiente estructura:
+        <br>Si se le llamara `customer` al módulo
         <ul>
             <li>customer
                 <ul>
@@ -63,11 +64,11 @@ To use generator-angular-curd-custom-module generator, please go through below s
         </ul>
     </li>
 </ol>
-If you want to add more modules,then repeat step 4.
+Si desea agregar más módulos, repita el paso 4.
 
-## Example
+## Ejemplo
 
-Lets create `Customer contact` application for your organization,in which you can maintain `customers` and `employees` information.Create a new folder and apply below steps:
+Se va a crear una aplicación `Customer contact` para tu organización, in which you can maintain `customers` and `employees` information.Create a new folder and apply below steps:
 
 <pre>
 npm install -g yo
